@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>data</key>
+	<array>
+		<dict>
+			<key>laneKey</key>
+			<integer>1</integer>
+			<key>laneValue</key>
+			<string>Green</string>
+		</dict>
+		<dict>
+			<key>laneKey</key>
+			<integer>2</integer>
+			<key>laneValue</key>
+			<string>Blue</string>
+		</dict>
+		<dict>
+			<key>laneKey</key>
+			<integer>3</integer>
+			<key>laneValue</key>
+			<string>Red</string>
+		</dict>
+		<dict>
+			<key>laneKey</key>
+			<integer>4</integer>
+			<key>laneValue</key>
+			<string>Yellow</string>
+		</dict>
+		<dict>
+			<key>laneKey</key>
+			<integer>5</integer>
+			<key>laneValue</key>
+			<string>Black</string>
+		</dict>
+	</array>
+</dict>
+</plist>

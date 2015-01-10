@@ -1,0 +1,12 @@
+{
+  "stations": [{
+    "stationName": "Peter park",
+    "reason": "Annual maintanance work happening ..."
+  }, {
+    "stationName": "South park",
+    "reason": "Closed for maintanance"
+  }, {
+    "stationName": "Morpheus Lane",
+    "reason": "closed for renovation"
+  }]
+}

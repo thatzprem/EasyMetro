@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>data</key>
+	<array>
+		<dict>
+			<key>cityName</key>
+			<string>East end</string>
+			<key>lane1</key>
+			<integer>5</integer>
+			<key>lane2</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>cityName</key>
+			<string>City center</string>
+			<key>lane1</key>
+			<integer>1</integer>
+			<key>lane2</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>cityName</key>
+			<string>Neo lane</string>
+			<key>lane1</key>
+			<integer>3</integer>
+			<key>lane2</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>cityName</key>
+			<string>Green cross</string>
+			<key>lane1</key>
+			<integer>1</integer>
+			<key>lane2</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>cityName</key>
+			<string>Morpheus lane</string>
+			<key>lane1</key>
+			<integer>3</integer>
+			<key>lane2</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>cityName</key>
+			<string>South Park</string>
+			<key>lane1</key>
+			<integer>1</integer>
+			<key>lane2</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>cityName</key>
+			<string>Boxing avenue</string>
+			<key>lane1</key>
+			<integer>3</integer>
+			<key>lane2</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

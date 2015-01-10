@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3BE8C50919D069890094910A /* Documentation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3BE8C50C19D0698A0094910A /* Build configuration list for PBXAggregateTarget "Documentation" */;
+			buildPhases = (
+				3BE8C50D19D069CA0094910A /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Documentation;
+			productName = Documentation;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3B1162CF19CCAF2400E265AC /* EMStationsListTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1162CE19CCAF2400E265AC /* EMStationsListTVC.m */; };
+		3B1162D119CCB07600E265AC /* Lanes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B1162D019CCB07600E265AC /* Lanes.plist */; };
+		3B1162D419CCB11800E265AC /* Lane+Operatios.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1162D319CCB11800E265AC /* Lane+Operatios.m */; };
+		3B1162DB19CCB35900E265AC /* EMJunctionDataOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1162DA19CCB35900E265AC /* EMJunctionDataOperations.m */; };
+		3B1162DE19CCB37C00E265AC /* EMStationDataOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1162DD19CCB37C00E265AC /* EMStationDataOperations.m */; };
+		3B1162E119CCB38A00E265AC /* EMLaneOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1162E019CCB38A00E265AC /* EMLaneOperations.m */; };
+		3B1A6F9E19CAD5AC00AD604E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1A6F9D19CAD5AC00AD604E /* Foundation.framework */; };
+		3B1A6FA019CAD5AC00AD604E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1A6F9F19CAD5AC00AD604E /* CoreGraphics.framework */; };
+		3B1A6FA219CAD5AC00AD604E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1A6FA119CAD5AC00AD604E /* UIKit.framework */; };
+		3B1A6FA419CAD5AC00AD604E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1A6FA319CAD5AC00AD604E /* CoreData.framework */; };
+		3B1A6FAA19CAD5AC00AD604E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B1A6FA819CAD5AC00AD604E /* InfoPlist.strings */; };
+		3B1A6FAC19CAD5AC00AD604E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1A6FAB19CAD5AC00AD604E /* main.m */; };
+		3B1A6FB019CAD5AC00AD604E /* EMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1A6FAF19CAD5AC00AD604E /* EMAppDelegate.m */; };
+		3B1A6FB319CAD5AC00AD604E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1A6FB119CAD5AC00AD604E /* Main_iPhone.storyboard */; };
+		3B1A6FB619CAD5AC00AD604E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B1A6FB419CAD5AC00AD604E /* Main_iPad.storyboard */; };
+		3B1A6FB919CAD5AC00AD604E /* EasyMetro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B1A6FB719CAD5AC00AD604E /* EasyMetro.xcdatamodeld */; };
+		3B1A6FBC19CAD5AC00AD604E /* EMMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1A6FBB19CAD5AC00AD604E /* EMMainViewController.m */; };
+		3B1A6FC119CAD5AC00AD604E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1A6FC019CAD5AC00AD604E /* Images.xcassets */; };
+		3B1A6FC819CAD5AC00AD604E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1A6FC719CAD5AC00AD604E /* XCTest.framework */; };
+		3B1A6FC919CAD5AC00AD604E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1A6F9D19CAD5AC00AD604E /* Foundation.framework */; };
+		3B1A6FCA19CAD5AC00AD604E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1A6FA119CAD5AC00AD604E /* UIKit.framework */; };
+		3B1A6FCB19CAD5AC00AD604E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B1A6FA319CAD5AC00AD604E /* CoreData.framework */; };
+		3B1A6FD319CAD5AC00AD604E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B1A6FD119CAD5AC00AD604E /* InfoPlist.strings */; };
+		3B1A6FD519CAD5AC00AD604E /* EasyMetroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1A6FD419CAD5AC00AD604E /* EasyMetroTests.m */; };
+		3B1A6FF619CADA4B00AD604E /* EMAppDelegate+CoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1A6FF519CADA4B00AD604E /* EMAppDelegate+CoreData.m */; };
+		3B1A702919CADE0E00AD604E /* Stations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B1A702819CADE0E00AD604E /* Stations.plist */; };
+		3B1A702C19CAE19F00AD604E /* Station+Operations.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1A702B19CAE19F00AD604E /* Station+Operations.m */; };
+		3B1A703219CAE28400AD604E /* Lane.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1A703119CAE28400AD604E /* Lane.m */; };
+		3B1A703519CAE28400AD604E /* Junction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1A703419CAE28400AD604E /* Junction.m */; };
+		3B1A703719CAF2BE00AD604E /* Junctions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B1A703619CAF2BE00AD604E /* Junctions.plist */; };
+		3B1A703A19CAF39300AD604E /* Junction+Operations.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1A703919CAF39300AD604E /* Junction+Operations.m */; };
+		3B1A704019CB4F4300AD604E /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1A703F19CB4F4300AD604E /* Station.m */; };
+		3B1B324C19DA7ED800D06228 /* NSJSONSerialization+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B324B19DA7ED800D06228 /* NSJSONSerialization+Additions.m */; };
+		3B1B324E19DA806D00D06228 /* Response.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B1B324D19DA806D00D06228 /* Response.json */; };
+		3B28C55419CF20BC00F9F2E1 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B28C55319CF20BC00F9F2E1 /* MBProgressHUD.m */; };
+		3B4DCF0D19CD2D2300F85E57 /* EMRouteDisplayTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DCF0C19CD2D2300F85E57 /* EMRouteDisplayTVC.m */; };
+		3B4DCF1019CD4DE300F85E57 /* EMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DCF0F19CD4DE300F85E57 /* EMViewModel.m */; };
+		3B4DCF1319CD52C000F85E57 /* EMRoutesTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DCF1219CD52C000F85E57 /* EMRoutesTVC.m */; };
+		3B4DCF1919CD8AE900F85E57 /* EMRouteDetailsTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DCF1819CD8AE900F85E57 /* EMRouteDetailsTVCell.m */; };
+		3B4DCF1C19CD8B0600F85E57 /* EMRouteDataTVCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4DCF1B19CD8B0600F85E57 /* EMRouteDataTVCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B1A6FCC19CAD5AC00AD604E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B1A6F9219CAD5AC00AD604E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B1A6F9919CAD5AC00AD604E;
+			remoteInfo = EasyMetro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B1162CD19CCAF2400E265AC /* EMStationsListTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMStationsListTVC.h; sourceTree = "<group>"; };
+		3B1162CE19CCAF2400E265AC /* EMStationsListTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMStationsListTVC.m; sourceTree = "<group>"; };
+		3B1162D019CCB07600E265AC /* Lanes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Lanes.plist; sourceTree = "<group>"; };
+		3B1162D219CCB11800E265AC /* Lane+Operatios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Lane+Operatios.h"; sourceTree = "<group>"; };
+		3B1162D319CCB11800E265AC /* Lane+Operatios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Lane+Operatios.m"; sourceTree = "<group>"; };
+		3B1162D919CCB35900E265AC /* EMJunctionDataOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMJunctionDataOperations.h; sourceTree = "<group>"; };
+		3B1162DA19CCB35900E265AC /* EMJunctionDataOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMJunctionDataOperations.m; sourceTree = "<group>"; };
+		3B1162DC19CCB37C00E265AC /* EMStationDataOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMStationDataOperations.h; sourceTree = "<group>"; };
+		3B1162DD19CCB37C00E265AC /* EMStationDataOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMStationDataOperations.m; sourceTree = "<group>"; };
+		3B1162DF19CCB38A00E265AC /* EMLaneOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMLaneOperations.h; sourceTree = "<group>"; };
+		3B1162E019CCB38A00E265AC /* EMLaneOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMLaneOperations.m; sourceTree = "<group>"; };
+		3B1A6F9A19CAD5AC00AD604E /* EasyMetro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyMetro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B1A6F9D19CAD5AC00AD604E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B1A6F9F19CAD5AC00AD604E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3B1A6FA119CAD5AC00AD604E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3B1A6FA319CAD5AC00AD604E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3B1A6FA719CAD5AC00AD604E /* EasyMetro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyMetro-Info.plist"; sourceTree = "<group>"; };
+		3B1A6FA919CAD5AC00AD604E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B1A6FAB19CAD5AC00AD604E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B1A6FAD19CAD5AC00AD604E /* EasyMetro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasyMetro-Prefix.pch"; sourceTree = "<group>"; };
+		3B1A6FAE19CAD5AC00AD604E /* EMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMAppDelegate.h; sourceTree = "<group>"; };
+		3B1A6FAF19CAD5AC00AD604E /* EMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMAppDelegate.m; sourceTree = "<group>"; };
+		3B1A6FB219CAD5AC00AD604E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		3B1A6FB519CAD5AC00AD604E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		3B1A6FB819CAD5AC00AD604E /* EasyMetro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EasyMetro.xcdatamodel; sourceTree = "<group>"; };
+		3B1A6FBA19CAD5AC00AD604E /* EMMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMMainViewController.h; sourceTree = "<group>"; };
+		3B1A6FBB19CAD5AC00AD604E /* EMMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMMainViewController.m; sourceTree = "<group>"; };
+		3B1A6FC019CAD5AC00AD604E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B1A6FC619CAD5AC00AD604E /* EasyMetroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyMetroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B1A6FC719CAD5AC00AD604E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3B1A6FD019CAD5AC00AD604E /* EasyMetroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasyMetroTests-Info.plist"; sourceTree = "<group>"; };
+		3B1A6FD219CAD5AC00AD604E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B1A6FD419CAD5AC00AD604E /* EasyMetroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyMetroTests.m; sourceTree = "<group>"; };
+		3B1A6FF419CADA4B00AD604E /* EMAppDelegate+CoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EMAppDelegate+CoreData.h"; sourceTree = "<group>"; };
+		3B1A6FF519CADA4B00AD604E /* EMAppDelegate+CoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EMAppDelegate+CoreData.m"; sourceTree = "<group>"; };
+		3B1A702819CADE0E00AD604E /* Stations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Stations.plist; sourceTree = "<group>"; };
+		3B1A702A19CAE19F00AD604E /* Station+Operations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Station+Operations.h"; sourceTree = "<group>"; };
+		3B1A702B19CAE19F00AD604E /* Station+Operations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Station+Operations.m"; sourceTree = "<group>"; };
+		3B1A703019CAE28400AD604E /* Lane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lane.h; sourceTree = "<group>"; };
+		3B1A703119CAE28400AD604E /* Lane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lane.m; sourceTree = "<group>"; };
+		3B1A703319CAE28400AD604E /* Junction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Junction.h; sourceTree = "<group>"; };
+		3B1A703419CAE28400AD604E /* Junction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Junction.m; sourceTree = "<group>"; };
+		3B1A703619CAF2BE00AD604E /* Junctions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Junctions.plist; sourceTree = "<group>"; };
+		3B1A703819CAF39300AD604E /* Junction+Operations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Junction+Operations.h"; sourceTree = "<group>"; };
+		3B1A703919CAF39300AD604E /* Junction+Operations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Junction+Operations.m"; sourceTree = "<group>"; };
+		3B1A703E19CB4F4300AD604E /* Station.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
+		3B1A703F19CB4F4300AD604E /* Station.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
+		3B1B324919DA7ED800D06228 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = ThirdpartyControllers/Constants.h; sourceTree = "<group>"; };
+		3B1B324A19DA7ED800D06228 /* NSJSONSerialization+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSJSONSerialization+Additions.h"; path = "ThirdpartyControllers/NSJSONSerialization+Additions.h"; sourceTree = "<group>"; };
+		3B1B324B19DA7ED800D06228 /* NSJSONSerialization+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSJSONSerialization+Additions.m"; path = "ThirdpartyControllers/NSJSONSerialization+Additions.m"; sourceTree = "<group>"; };
+		3B1B324D19DA806D00D06228 /* Response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Response.json; sourceTree = "<group>"; };
+		3B28C55219CF20BC00F9F2E1 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = ThirdpartyControllers/MBProgressHUD.h; sourceTree = "<group>"; };
+		3B28C55319CF20BC00F9F2E1 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = ThirdpartyControllers/MBProgressHUD.m; sourceTree = "<group>"; };
+		3B4DCF0B19CD2D2300F85E57 /* EMRouteDisplayTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMRouteDisplayTVC.h; sourceTree = "<group>"; };
+		3B4DCF0C19CD2D2300F85E57 /* EMRouteDisplayTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMRouteDisplayTVC.m; sourceTree = "<group>"; };
+		3B4DCF0E19CD4DE300F85E57 /* EMViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMViewModel.h; sourceTree = "<group>"; };
+		3B4DCF0F19CD4DE300F85E57 /* EMViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMViewModel.m; sourceTree = "<group>"; };
+		3B4DCF1119CD52C000F85E57 /* EMRoutesTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMRoutesTVC.h; sourceTree = "<group>"; };
+		3B4DCF1219CD52C000F85E57 /* EMRoutesTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMRoutesTVC.m; sourceTree = "<group>"; };
+		3B4DCF1719CD8AE900F85E57 /* EMRouteDetailsTVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMRouteDetailsTVCell.h; sourceTree = "<group>"; };
+		3B4DCF1819CD8AE900F85E57 /* EMRouteDetailsTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMRouteDetailsTVCell.m; sourceTree = "<group>"; };
+		3B4DCF1A19CD8B0600F85E57 /* EMRouteDataTVCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMRouteDataTVCell.h; sourceTree = "<group>"; };
+		3B4DCF1B19CD8B0600F85E57 /* EMRouteDataTVCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMRouteDataTVCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B1A6F9719CAD5AC00AD604E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1A6FA019CAD5AC00AD604E /* CoreGraphics.framework in Frameworks */,
+				3B1A6FA419CAD5AC00AD604E /* CoreData.framework in Frameworks */,
+				3B1A6FA219CAD5AC00AD604E /* UIKit.framework in Frameworks */,
+				3B1A6F9E19CAD5AC00AD604E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B1A6FC319CAD5AC00AD604E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1A6FC819CAD5AC00AD604E /* XCTest.framework in Frameworks */,
+				3B1A6FCB19CAD5AC00AD604E /* CoreData.framework in Frameworks */,
+				3B1A6FCA19CAD5AC00AD604E /* UIKit.framework in Frameworks */,
+				3B1A6FC919CAD5AC00AD604E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B1162D519CCB2DF00E265AC /* DataAccessController */ = {
+			isa = PBXGroup;
+			children = (
+				3B1162D919CCB35900E265AC /* EMJunctionDataOperations.h */,
+				3B1162DA19CCB35900E265AC /* EMJunctionDataOperations.m */,
+				3B1162DC19CCB37C00E265AC /* EMStationDataOperations.h */,
+				3B1162DD19CCB37C00E265AC /* EMStationDataOperations.m */,
+				3B1162DF19CCB38A00E265AC /* EMLaneOperations.h */,
+				3B1162E019CCB38A00E265AC /* EMLaneOperations.m */,
+			);
+			name = DataAccessController;
+			sourceTree = "<group>";
+		};
+		3B1A6F9119CAD5AC00AD604E = {
+			isa = PBXGroup;
+			children = (
+				3B1A6FA519CAD5AC00AD604E /* EasyMetro */,
+				3B1A6FCE19CAD5AC00AD604E /* EasyMetroTests */,
+				3B1A6F9C19CAD5AC00AD604E /* Frameworks */,
+				3B1A6F9B19CAD5AC00AD604E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B1A6F9B19CAD5AC00AD604E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B1A6F9A19CAD5AC00AD604E /* EasyMetro.app */,
+				3B1A6FC619CAD5AC00AD604E /* EasyMetroTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B1A6F9C19CAD5AC00AD604E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B1A6F9D19CAD5AC00AD604E /* Foundation.framework */,
+				3B1A6F9F19CAD5AC00AD604E /* CoreGraphics.framework */,
+				3B1A6FA119CAD5AC00AD604E /* UIKit.framework */,
+				3B1A6FA319CAD5AC00AD604E /* CoreData.framework */,
+				3B1A6FC719CAD5AC00AD604E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B1A6FA519CAD5AC00AD604E /* EasyMetro */ = {
+			isa = PBXGroup;
+			children = (
+				3B28C55519CF252900F9F2E1 /* AppDelegate */,
+				3B28C55619CF254A00F9F2E1 /* ViewControllers */,
+				3B28C55719CF255E00F9F2E1 /* Views */,
+				3B28C55819CF256D00F9F2E1 /* ViewModels */,
+				3B1162D519CCB2DF00E265AC /* DataAccessController */,
+				3B1A6FDE19CAD8CC00AD604E /* DataModels */,
+				3B28C55119CF209000F9F2E1 /* ThirdPartyResources */,
+				3B1A6FF719CADCAE00AD604E /* DataResources */,
+				3B1A6FC019CAD5AC00AD604E /* Images.xcassets */,
+				3B1A6FB719CAD5AC00AD604E /* EasyMetro.xcdatamodeld */,
+				3B1A6FA619CAD5AC00AD604E /* Supporting Files */,
+			);
+			path = EasyMetro;
+			sourceTree = "<group>";
+		};
+		3B1A6FA619CAD5AC00AD604E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B1A6FB119CAD5AC00AD604E /* Main_iPhone.storyboard */,
+				3B1A6FB419CAD5AC00AD604E /* Main_iPad.storyboard */,
+				3B1A6FA719CAD5AC00AD604E /* EasyMetro-Info.plist */,
+				3B1A6FA819CAD5AC00AD604E /* InfoPlist.strings */,
+				3B1A6FAB19CAD5AC00AD604E /* main.m */,
+				3B1A6FAD19CAD5AC00AD604E /* EasyMetro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B1A6FCE19CAD5AC00AD604E /* EasyMetroTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B1A6FD419CAD5AC00AD604E /* EasyMetroTests.m */,
+				3B1A6FCF19CAD5AC00AD604E /* Supporting Files */,
+			);
+			path = EasyMetroTests;
+			sourceTree = "<group>";
+		};
+		3B1A6FCF19CAD5AC00AD604E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B1A6FD019CAD5AC00AD604E /* EasyMetroTests-Info.plist */,
+				3B1A6FD119CAD5AC00AD604E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B1A6FDE19CAD8CC00AD604E /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				3B1A703E19CB4F4300AD604E /* Station.h */,
+				3B1A703F19CB4F4300AD604E /* Station.m */,
+				3B1A702A19CAE19F00AD604E /* Station+Operations.h */,
+				3B1A702B19CAE19F00AD604E /* Station+Operations.m */,
+				3B1A703319CAE28400AD604E /* Junction.h */,
+				3B1A703419CAE28400AD604E /* Junction.m */,
+				3B1A703819CAF39300AD604E /* Junction+Operations.h */,
+				3B1A703919CAF39300AD604E /* Junction+Operations.m */,
+				3B1A703019CAE28400AD604E /* Lane.h */,
+				3B1A703119CAE28400AD604E /* Lane.m */,
+				3B1162D219CCB11800E265AC /* Lane+Operatios.h */,
+				3B1162D319CCB11800E265AC /* Lane+Operatios.m */,
+			);
+			name = DataModels;
+			sourceTree = "<group>";
+		};
+		3B1A6FF719CADCAE00AD604E /* DataResources */ = {
+			isa = PBXGroup;
+			children = (
+				3B1B324D19DA806D00D06228 /* Response.json */,
+				3B1162D019CCB07600E265AC /* Lanes.plist */,
+				3B1A703619CAF2BE00AD604E /* Junctions.plist */,
+				3B1A702819CADE0E00AD604E /* Stations.plist */,
+			);
+			name = DataResources;
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		3B28C55119CF209000F9F2E1 /* ThirdPartyResources */ = {
+			isa = PBXGroup;
+			children = (
+				3B1B324919DA7ED800D06228 /* Constants.h */,
+				3B1B324A19DA7ED800D06228 /* NSJSONSerialization+Additions.h */,
+				3B1B324B19DA7ED800D06228 /* NSJSONSerialization+Additions.m */,
+				3B28C55219CF20BC00F9F2E1 /* MBProgressHUD.h */,
+				3B28C55319CF20BC00F9F2E1 /* MBProgressHUD.m */,
+			);
+			name = ThirdPartyResources;
+			sourceTree = "<group>";
+		};
+		3B28C55519CF252900F9F2E1 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3B1A6FAE19CAD5AC00AD604E /* EMAppDelegate.h */,
+				3B1A6FAF19CAD5AC00AD604E /* EMAppDelegate.m */,
+				3B1A6FF419CADA4B00AD604E /* EMAppDelegate+CoreData.h */,
+				3B1A6FF519CADA4B00AD604E /* EMAppDelegate+CoreData.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3B28C55619CF254A00F9F2E1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3B1A6FBA19CAD5AC00AD604E /* EMMainViewController.h */,
+				3B1A6FBB19CAD5AC00AD604E /* EMMainViewController.m */,
+				3B1162CD19CCAF2400E265AC /* EMStationsListTVC.h */,
+				3B1162CE19CCAF2400E265AC /* EMStationsListTVC.m */,
+				3B4DCF1119CD52C000F85E57 /* EMRoutesTVC.h */,
+				3B4DCF1219CD52C000F85E57 /* EMRoutesTVC.m */,
+				3B4DCF0B19CD2D2300F85E57 /* EMRouteDisplayTVC.h */,
+				3B4DCF0C19CD2D2300F85E57 /* EMRouteDisplayTVC.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3B28C55719CF255E00F9F2E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DCF1719CD8AE900F85E57 /* EMRouteDetailsTVCell.h */,
+				3B4DCF1819CD8AE900F85E57 /* EMRouteDetailsTVCell.m */,
+				3B4DCF1A19CD8B0600F85E57 /* EMRouteDataTVCell.h */,
+				3B4DCF1B19CD8B0600F85E57 /* EMRouteDataTVCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3B28C55819CF256D00F9F2E1 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3B4DCF0E19CD4DE300F85E57 /* EMViewModel.h */,
+				3B4DCF0F19CD4DE300F85E57 /* EMViewModel.m */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B1A6F9919CAD5AC00AD604E /* EasyMetro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B1A6FD819CAD5AC00AD604E /* Build configuration list for PBXNativeTarget "EasyMetro" */;
+			buildPhases = (
+				3B1A6F9619CAD5AC00AD604E /* Sources */,
+				3B1A6F9719CAD5AC00AD604E /* Frameworks */,
+				3B1A6F9819CAD5AC00AD604E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyMetro;
+			productName = EasyMetro;
+			productReference = 3B1A6F9A19CAD5AC00AD604E /* EasyMetro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B1A6FC519CAD5AC00AD604E /* EasyMetroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B1A6FDB19CAD5AC00AD604E /* Build configuration list for PBXNativeTarget "EasyMetroTests" */;
+			buildPhases = (
+				3B1A6FC219CAD5AC00AD604E /* Sources */,
+				3B1A6FC319CAD5AC00AD604E /* Frameworks */,
+				3B1A6FC419CAD5AC00AD604E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B1A6FCD19CAD5AC00AD604E /* PBXTargetDependency */,
+			);
+			name = EasyMetroTests;
+			productName = EasyMetroTests;
+			productReference = 3B1A6FC619CAD5AC00AD604E /* EasyMetroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B1A6F9219CAD5AC00AD604E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ThoughtWorks;
+				TargetAttributes = {
+					3B1A6FC519CAD5AC00AD604E = {
+						TestTargetID = 3B1A6F9919CAD5AC00AD604E;
+					};
+				};
+			};
+			buildConfigurationList = 3B1A6F9519CAD5AC00AD604E /* Build configuration list for PBXProject "EasyMetro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B1A6F9119CAD5AC00AD604E;
+			productRefGroup = 3B1A6F9B19CAD5AC00AD604E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B1A6F9919CAD5AC00AD604E /* EasyMetro */,
+				3B1A6FC519CAD5AC00AD604E /* EasyMetroTests */,
+				3BE8C50919D069890094910A /* Documentation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B1A6F9819CAD5AC00AD604E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1A6FB619CAD5AC00AD604E /* Main_iPad.storyboard in Resources */,
+				3B1A702919CADE0E00AD604E /* Stations.plist in Resources */,
+				3B1A703719CAF2BE00AD604E /* Junctions.plist in Resources */,
+				3B1162D119CCB07600E265AC /* Lanes.plist in Resources */,
+				3B1B324E19DA806D00D06228 /* Response.json in Resources */,
+				3B1A6FC119CAD5AC00AD604E /* Images.xcassets in Resources */,
+				3B1A6FB319CAD5AC00AD604E /* Main_iPhone.storyboard in Resources */,
+				3B1A6FAA19CAD5AC00AD604E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B1A6FC419CAD5AC00AD604E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1A6FD319CAD5AC00AD604E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BE8C50D19D069CA0094910A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Start constants\ncompany=\"xxxxxxxx\";\ncompanyID=\"xxxxxxxx\";\ncompanyURL=\"xxxxxxxx\";\ntarget=\"iphoneos\";\n#target=\"macosx\";\noutputPath=\"~/Sites/xcode_workspace/_help/${PROJECT_NAME}\";\n# End constants\n\n/usr/local/bin/appledoc \\\n--exit-threshold 2 \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/docs/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/docs/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}/docs\" \\\n--docset-platform-family \"${target}\" \\\n--keep-intermediate-files \\\n--keep-undocumented-objects \\\n--keep-undocumented-members \\\n--logformat xcode \\\n--merge-categories \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--no-warn-undocumented-object \\\n--no-warn-undocumented-member \\\n--no-warn-empty-description \\\n--output \"${outputPath}\" \\\n--install-docset \\\n--print-information-block-titles \\\n--use-code-order \\\n--verbose 4 \\\n--ignore \"*.m\" \\\n--ignore \"LoadableCategory.h\" \\\n--ignore \"BuildHeaders\" \\\n--ignore \"Igor\" \\\n--ignore \"Kiwi\" \\\n--ignore \"PublicAutomation\" \\\n--ignore \"SDWebImage\" \\\n--ignore \"SVProgressHUD\" \\\n--ignore \"SVPullToRefresh\" \\\n--ignore \"CocoaLumberjack\" \\\n--ignore \"Toast\" \\\n--ignore \"PonyDebugger\" \\\n--ignore \"PonyDebuggerLogger\" \\\n--ignore \"SocketRocket\" \\\n\"${PROJECT_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B1A6F9619CAD5AC00AD604E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1A6FF619CADA4B00AD604E /* EMAppDelegate+CoreData.m in Sources */,
+				3B1A702C19CAE19F00AD604E /* Station+Operations.m in Sources */,
+				3B1B324C19DA7ED800D06228 /* NSJSONSerialization+Additions.m in Sources */,
+				3B4DCF0D19CD2D2300F85E57 /* EMRouteDisplayTVC.m in Sources */,
+				3B1A704019CB4F4300AD604E /* Station.m in Sources */,
+				3B1162E119CCB38A00E265AC /* EMLaneOperations.m in Sources */,
+				3B4DCF1919CD8AE900F85E57 /* EMRouteDetailsTVCell.m in Sources */,
+				3B4DCF1319CD52C000F85E57 /* EMRoutesTVC.m in Sources */,
+				3B1A703519CAE28400AD604E /* Junction.m in Sources */,
+				3B1162D419CCB11800E265AC /* Lane+Operatios.m in Sources */,
+				3B1162DB19CCB35900E265AC /* EMJunctionDataOperations.m in Sources */,
+				3B1162DE19CCB37C00E265AC /* EMStationDataOperations.m in Sources */,
+				3B4DCF1C19CD8B0600F85E57 /* EMRouteDataTVCell.m in Sources */,
+				3B1A703A19CAF39300AD604E /* Junction+Operations.m in Sources */,
+				3B28C55419CF20BC00F9F2E1 /* MBProgressHUD.m in Sources */,
+				3B1A6FB019CAD5AC00AD604E /* EMAppDelegate.m in Sources */,
+				3B1162CF19CCAF2400E265AC /* EMStationsListTVC.m in Sources */,
+				3B1A703219CAE28400AD604E /* Lane.m in Sources */,
+				3B1A6FB919CAD5AC00AD604E /* EasyMetro.xcdatamodeld in Sources */,
+				3B1A6FAC19CAD5AC00AD604E /* main.m in Sources */,
+				3B4DCF1019CD4DE300F85E57 /* EMViewModel.m in Sources */,
+				3B1A6FBC19CAD5AC00AD604E /* EMMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B1A6FC219CAD5AC00AD604E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1A6FD519CAD5AC00AD604E /* EasyMetroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B1A6FCD19CAD5AC00AD604E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B1A6F9919CAD5AC00AD604E /* EasyMetro */;
+			targetProxy = 3B1A6FCC19CAD5AC00AD604E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B1A6FA819CAD5AC00AD604E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B1A6FA919CAD5AC00AD604E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3B1A6FB119CAD5AC00AD604E /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B1A6FB219CAD5AC00AD604E /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		3B1A6FB419CAD5AC00AD604E /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B1A6FB519CAD5AC00AD604E /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		3B1A6FD119CAD5AC00AD604E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B1A6FD219CAD5AC00AD604E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B1A6FD619CAD5AC00AD604E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B1A6FD719CAD5AC00AD604E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B1A6FD919CAD5AC00AD604E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyMetro/EasyMetro-Prefix.pch";
+				INFOPLIST_FILE = "EasyMetro/EasyMetro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3B1A6FDA19CAD5AC00AD604E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyMetro/EasyMetro-Prefix.pch";
+				INFOPLIST_FILE = "EasyMetro/EasyMetro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3B1A6FDC19CAD5AC00AD604E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasyMetro.app/EasyMetro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyMetro/EasyMetro-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EasyMetroTests/EasyMetroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3B1A6FDD19CAD5AC00AD604E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasyMetro.app/EasyMetro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasyMetro/EasyMetro-Prefix.pch";
+				INFOPLIST_FILE = "EasyMetroTests/EasyMetroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		3BE8C50A19D0698A0094910A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BE8C50B19D0698A0094910A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B1A6F9519CAD5AC00AD604E /* Build configuration list for PBXProject "EasyMetro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1A6FD619CAD5AC00AD604E /* Debug */,
+				3B1A6FD719CAD5AC00AD604E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B1A6FD819CAD5AC00AD604E /* Build configuration list for PBXNativeTarget "EasyMetro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1A6FD919CAD5AC00AD604E /* Debug */,
+				3B1A6FDA19CAD5AC00AD604E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B1A6FDB19CAD5AC00AD604E /* Build configuration list for PBXNativeTarget "EasyMetroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1A6FDC19CAD5AC00AD604E /* Debug */,
+				3B1A6FDD19CAD5AC00AD604E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BE8C50C19D0698A0094910A /* Build configuration list for PBXAggregateTarget "Documentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BE8C50A19D0698A0094910A /* Debug */,
+				3BE8C50B19D0698A0094910A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3B1A6FB719CAD5AC00AD604E /* EasyMetro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3B1A6FB819CAD5AC00AD604E /* EasyMetro.xcdatamodel */,
+			);
+			currentVersion = 3B1A6FB819CAD5AC00AD604E /* EasyMetro.xcdatamodel */;
+			path = EasyMetro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3B1A6F9219CAD5AC00AD604E /* Project object */;
+}
